@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="меняем тут">
+    <meta name="author" content="меняем тут">
+    <meta name="generator" content="меняем тут">
+    <title>меняем тут</title>
+    <!--bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!--style-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Подключение гуголсктх шрифтов -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="site-wrapper">
+
+<!-- Верхушка сайта, оглавление, менюшка -->
+<header>
+    <div class="container">
+        <h1>Поиск книги</h1>
+        <nav class="navbar navbar-expand-lg nav-user">
+            <div class="container-fluid">
+                <a class="navbar-brand .logo" href="#">
+                    <img src="img/logo.png" alt="logo" class="d-inline-block align-text-top img-user">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <!-- Здесь можно обновить или удалить книгу -->
+                            <a class="nav-link" href="#">Книги</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Здесь можно добавить книгу -->
+                            <a class="nav-link" href="#">Добавить книгу</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <!-- Середина, здесь будет меняться содержимое -->
+    <main>
+        <div class="container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Автор</th>
+                    <th>Название книги</th>
+                    <th>Год издания</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Автор 1</td>
+                    <td>Книга 1</td>
+                    <td>2021</td>
+                    <td><a href="#" class="btn btn-primary">Обновить</a></td>
+                    <td><a href="#" class="btn btn-danger">Удалить</a></td>
+                </tr>
+                <tr>
+                    <td>Автор 2</td>
+                    <td>Книга 2</td>
+                    <td>2022</td>
+                    <td><a href="#" class="btn btn-primary">Обновить</a></td>
+                    <td><a href="#" class="btn btn-danger">Удалить</a></td>
+                </tr>
+                <!-- Добавьте другие строки таблицы по аналогии -->
+                </tbody>
+            </table>
+        </div>
+
+
+    </main>
+
+
+    <!-- Подвал -->
+    <footer>
+        <div class="navbar-fixed-bottom row-fluid bg-dark p">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <div class="container d-flex justify-content-evenly">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Резюме</a>
+                        <a href="#">Git</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
